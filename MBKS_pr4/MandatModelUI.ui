@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>728</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Мандатная модель</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="accesslvl_lbl">
+      <property name="text">
+       <string>Задание уровня доступа</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLineEdit" name="folder_line"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="folder_btn">
+        <property name="text">
+         <string>Выбрать</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QComboBox" name="accesslvl_cb">
+        <property name="currentText">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="accesslvl_btn">
+        <property name="text">
+         <string>Задать</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QTextBrowser" name="accesslvl_tb"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="copyfile_lbl">
+      <property name="text">
+       <string>Файл для копирования</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="copyfile_line"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="copyfile_btn">
+        <property name="text">
+         <string>Выбрать</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="destination_lbl">
+      <property name="text">
+       <string>Папка назначения</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="destination_folder_line"/>
+      </item>
+      <item>
+       <widget class="QPushButton" name="destination_folder_btn">
+        <property name="text">
+         <string>Выбрать</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="copy_btn">
+      <property name="text">
+       <string>Копировать</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>728</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
